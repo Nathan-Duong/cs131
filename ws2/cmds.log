@@ -1,0 +1,30 @@
+  133  ls
+  134  cd
+  135  ls
+  136  cd cs131/
+  137  mkdir ws2
+  138  cd ws2/
+  153  ls ../../../../proc >> ws2.txt
+  155  vi ws2.txt
+  158  ls /proc | grep mem >> ws2.txt
+  159  ls /proc | grep cpu >> ws2.txt
+  160  vi ws2.txt
+  161  head /proc/meminfo >> ws2.txt
+  162  cat ws2.txt
+  163  vi ws2.txt
+  165  groups nathan_duong		# originally used groups without 'nathan_duong'. redone
+  166  vi ws2.txt
+  167  id nathan_duong			# originally used id without 'nathan_duong'. redone
+  168  vi ws2.txt
+  169  head /proc/cpuinfo >> ws2.txt
+  170  tail /proc/cpuinfo >> ws2.txt
+  171* cat /proc/cpuinfo >> ws2.txt
+  174  vi ws2.txt
+  181  ls /etc
+  182  ls /etc/os-release 
+  183  cat /etc/os-release 
+  184  cat /etc/os-release >> ws2.txt
+  185  vi ws2.txt 
+  187  echo ~				# originally used 'pwd' in the beginning. found it was wrong, redone.
+  188  vi ws2.txt
+  189  history > cmds.log
