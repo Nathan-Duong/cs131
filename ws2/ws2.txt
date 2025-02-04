@@ -2,10 +2,10 @@
 /home/nathan_duong/
 
 # using 'id nathan_duong', uid is 1001. found command from askubuntu forum
-uid=1001(nathan_duong) gid=1002(nathan_duong) groups=1002(nathan_duong),4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),118(netdev),119(lxd),1000(ubuntu)
+uid=1001(nathan_duong) gid=1002(nathan_duong) groups=1002(nathan_duong),4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),118(netdev),119(lxd),1000(ubuntu),1001(google-sudoers)
 
 # using 'groups nathan_duong', i belong to all these groups. found command from askubuntu forum
-nathan_duong adm dialout cdrom floppy audio dip video plugdev netdev lxd ubuntu
+nathan_duong adm dialout cdrom floppy audio dip video plugdev netdev lxd ubuntu google-sudoers
 
 # using 'ls /proc | grep mem', should be meminfo. (originally i did 'ls /proc' and looked for 'mem' manually)
 iomem
