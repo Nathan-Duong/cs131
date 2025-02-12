@@ -1,10 +1,6 @@
-    1  /home/<user-name>/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
     2  /home/nathan_duong/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
    16  head 2019-01-h1.csv 
    22  grep "2019-01-02"
    23  grep "2019-01-02" 2019-01-h1.csv 
-   24  grep "2019-01-02" 2019-01-h1.csv | cut -d"," -f8
-   25  grep "2019-01-02" 2019-01-h1.csv | cut -d"," -f8 | uniq -c
-   26  grep "2019-01-02" 2019-01-h1.csv | cut -d"," -f8 | uniq -c |sort -nr
-   39  grep "2019-01-02" 2019-01-h1.csv | cut -d"," -f8 | uniq -c | sort -nr | head >> ws3.txt
-   40  grep "2019-01-10" 2019-01-h1.csv | cut -d"," -f8 | uniq -c | sort -nr | head >> ws3.txt
+   62  grep "2019-01-02" 2019-01-h1.csv | cut -d"," -f8 | sort | uniq -c | sort -nr | head >> ws3.txt
+   63  grep "2019-01-10" 2019-01-h1.csv | cut -d"," -f8 | sort | uniq -c | sort -nr | head >> ws3.txt
