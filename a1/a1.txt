@@ -1,0 +1,42 @@
+# TASK 1
+# END OF MY .BASHRC
+    . /etc/bash_completion
+  fi
+fi
+
+alias ll="ls -l"
+
+alias l="ls -ltr"
+
+alias w="ls -l | wc"
+
+# RUNNING l COMMAND
+total 4
+-rw-rw-r-- 1 nathan_duong nathan_duong   0 Feb 19 03:42 a.txt
+-rw-rw-r-- 1 nathan_duong nathan_duong   0 Feb 19 03:42 b.txt
+-rw-rw-r-- 1 nathan_duong nathan_duong   0 Feb 19 03:42 c.txt
+-rw-rw-r-- 1 nathan_duong nathan_duong 114 Feb 19 04:02 a1.txt
+
+# RUNNING W COMMAND
+      5      38     257
+
+
+
+# TASK 2
+# 2A) I chose the first two rows as pairs: (151.0, 239.0) and (239.0, 246.0)
+# 2B+C) 
+	Mean for (151.0, 239.0) = 6.64491942703670546105
+	Mean for (239.0, 246.0) = 12.43428258488499452354
+# 2D)
+	36090.3
+# 2E) 
+  	19897 236.0
+  	18013 161.0
+  	16686 237.0
+  	16556 230.0
+  	14324 170.0
+  	13964 48.0
+  	13902 162.0
+  	13472 142.0
+  	12852 239.0
+  	12194 141.0

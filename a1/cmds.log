@@ -1,0 +1,24 @@
+# TASK 1
+  486  vim ~/.bashrc
+  490  touch a.txt
+  491  touch b.txt
+  492  touch c.txt
+  494  l >> a1.txt
+  495  w >> a1.txt
+
+# TASK 2
+A  498  mkdir FARE
+
+B  499  grep '151.0,239.0' 2019-01-h1.csv | cut -d, -f11 > FARE/151.0-239.0.txt
+   500  grep '239.0,246.0' 2019-01-h1.csv | cut -d, -f11 > FARE/239.0-246.0.txt
+
+C  501  total_fare=$(paste -sd+ FARE/151.0-239.0.txt | bc)
+   502  num_lines=$(wc -l < FARE/151.0-239.0.txt)
+   503  echo "$total_fare / $num_lines" | bc -l >> a1.txt
+   507  total_fare2=$(paste -sd+ FARE/239.0-246.0.txt | bc)
+   508  num_lines=2$(wc -l < FARE/239.0-246.0.txt)
+   509  echo "$total_fare2 / $num_lines2" | bc -l >> a1.txt
+
+D  525  grep "2019-01-10" 2019-01-h1.csv | cut -d',' -f17 | sort -n | tail -1 >> a1.txt
+
+E  527  egrep '^([^,]*,){3}([3-9]|[1-9][0-9])\.0' 2019-01-h1.csv | cut -d',' -f9 | sort | uniq -c | sort -nr | head -10
