@@ -20,7 +20,11 @@ do
 done
 
 # Create ws4.txt and store word count results for each generated file
-wc -l ${time}-*.csv > ws4.txt
+for vendor in "${vendors[@]}"
+do
+    OUTPUT_FILE="${time}-${vendor}.csv"
+    wc "$OUTPUT_FILE" >> ws4.txt
+done
 
 # Append .gitignore content to ws4.txt
 echo -e "\nContents of .gitignore:" >> ws4.txt
