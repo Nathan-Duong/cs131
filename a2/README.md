@@ -11,7 +11,7 @@ Ex: Teacher needs to sort students assignments by due date.
 ## How to use the command
 Save the script as 'organize_date.sh'\
 Then do 'chmod 777 organize_date.sh'\
-Now you can use the command by __'bash organize_date.sh /path/to/files [extension] (default:txt)]'__
+Now you can use the command by __'bash organize_date.sh /path/to/files [extension (default:txt)]'__
 
 ## Example:
 nathan_duong@instance-20250124-012855:~/cs131/a2$ bash organize_date.sh test_assignments\
