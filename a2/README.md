@@ -23,7 +23,7 @@ No valid date found in: test_assignments/assignment_no_date.txt\
 4 files moved. Done
 
 nathan_duong@instance-20250124-012855:~/cs131/a2$ bash organize_date.sh test_assignments/\
-No valid date found in: test_assignments//assignment_no_date.txt\
+No valid date found in: test_assignments/assignment_no_date.txt\
 No files were moved
 
 nathan_duong@instance-20250124-012855:~/cs131/a2$ bash organize_date.sh test_assignments_csv csv\
