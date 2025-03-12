@@ -1,0 +1,13 @@
+#!/bin/bash
+TEST_DIR="test_assignments_csv"
+OUTPUT_DIR="Assignments"
+rm -rf "$TEST_DIR" "$OUTPUT_DIR"
+mkdir -p "$TEST_DIR"
+echo "Test Assignment 1 content, signed 01-17-2003" > "$TEST_DIR/assignment_01-17-2003.csv"
+echo "Test Assignment 2 content, signed 05-22-2015" > "$TEST_DIR/assignment_05-22-2015.csv"
+echo "Test Assignment 3 content, signed 07-09-2018" > "$TEST_DIR/assignment_07-09-2018.csv"
+echo "Test Assignment 4 content, signed 12-25-2020" > "$TEST_DIR/assignment_12-25-2020.csv"
+echo "Test Assignment without a date" > "$TEST_DIR/assignment_no_date.csv"
+echo "Test files created in $TEST_DIR:"
+ls -l "$TEST_DIR"
+echo "Test setup complete!"
