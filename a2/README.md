@@ -4,14 +4,14 @@
 The command organizes files by reading the file content and extracting the first date in MM-DD-YYYY format. Then it moves the files into directories based on the dates into the Assignments folder.
 
 ## Why? When?
-It helps to automate the process of sorting files by date.
-It will help users locate assignments based on the date.
-Ex: Teacher needs to sort students assignments by due date.
+It helps to automate the process of sorting files by date.\
+It will help users locate assignments based on the date.\
+Ex: Teacher needs to sort students assignments by due date.\
 
 ## How to use the command
-Save the script as 'organize_date.sh'
-Then do 'chmod 777 organize_date.sh'
-Now you can use the command by 'bash organize_date.sh /path/to/files [extension]'
+Save the script as 'organize_date.sh'\
+Then do 'chmod 777 organize_date.sh'\
+Now you can use the command by 'bash organize_date.sh /path/to/files [extension]'\
 
 Example:
 nathan_duong@instance-20250124-012855:~/cs131/a2$ ./organize_date.sh test_assignments/
