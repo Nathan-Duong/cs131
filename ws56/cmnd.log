@@ -1,0 +1,7 @@
+1069  mkdir ws56
+1074  sed -n '/^2\.0,/p' 2019-01-h1.csv > vendor2.csv
+1075  wc vendor2.csv > ws56.txt
+1077  sed 's/[:\"-]//g' 2019-01-h1.csv > no-separators.csv
+1082  head -10 no-separators.csv >> ws56.txt 
+1084  sed 's/\([0-9]\+\)\.[0-9]\+/\1/g' no-separators.csv > no-fractions.csv
+1085  head -10 no-fractions.csv >> ws56.txt
