@@ -1,0 +1,39 @@
+ 1193  cd cs131/
+ 1196  mkdir a3
+ 1197  cd a3/
+ 1198  vim grades.csv
+ 1199  vim grader.awk
+ 1200  awk -f grader.awk grades.csv
+ 1201  vim grader.awk 
+ 1202  awk -f grader.awk grades.csv
+ 1203  vim grader.awk 
+ 1204  awk -f grader.awk grades.csv
+ 1205  vim grader.awk
+ 1206  awk -f grader.awk grades.csv
+ 1207  vim grader.awk
+ 1208  awk -f grader.awk grades.csv
+ 1209  vim grader.awk
+ 1210  awk -f grader.awk grades.csv
+ 1211  vim grader.awk
+ 1212  awk -f grader.awk grades.csv
+ 1213  vim grader.awk
+ 1214  awk -f grader.awk grades.csv
+ 1215  vim grader.awk
+ 1216  awk -f grader.awk grades.csv
+ 1218  vim grader.awk
+ 1221  awk -f grader.awk grades.csv
+ 1222  vim grader.awk
+ 1223  awk -f grader.awk grades.csv
+ 1224  vim grader.awk
+ 1225  awk -f grader.awk grades.csv
+ 1226  vim grader.awk 
+ 1227  awk -f grader.awk grades.csv >> a3.txt
+ 1228  ls
+ 1229  cat a3.txt
+ 1230  vim a3.txt 
+ 1231  ls
+ 1232  history
+ 1233  history 20
+ 1234  history 30
+ 1235  history 50
+ 1236  history 50 >> cmnd.log
